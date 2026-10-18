@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react';
-import { Activity, Award, BarChart3, BriefcaseBusiness, CheckCircle2, ChevronDown, CircleHelp, ClipboardList, FileSearch, FileText, Filter, Gauge, Github, LayoutDashboard, Menu, Plus, Search, ShieldAlert, Sparkles, Upload, Users, X, Zap } from 'lucide-react';
+import { Activity, Award, BarChart3, BriefcaseBusiness, CheckCircle2, ChevronDown, CircleHelp, ClipboardList, FileSearch, FileText, Filter, Gauge, GitBranch, LayoutDashboard, Menu, Plus, Search, ShieldAlert, Sparkles, Upload, Users, X, Zap } from 'lucide-react';
 import './App.css';
 
 type Candidate = { id: number; name: string; role: string; email: string; experience: number; skills: string[]; evidence: string; risk: string; score: number; status: string; source: string };
